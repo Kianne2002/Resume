@@ -1,0 +1,77 @@
+margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #c8ff03;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: #6c11e2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(19, 5, 5, 0.1);
+    display: flex;
+}
+
+.left-column, .right-column {
+    flex: 1;
+    padding: 10px;
+}
+
+.left-column {
+    background-color: rgb(14, 255, 255); 
+}
+
+.right-column {
+    background-color: #b6b6bd; 
+}
+
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(4, 15, 19);
+}
+
+.profile h1, .profile h2 {
+    text-align: center;
+}
+
+.contact-info h3, .education h3, .language h3, .profile-section h3, .experience-section h3, .skills-section h3, .interests-section h3 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.contact-info ul {
+    list-style: none;
+}
+
+.contact-info li {
+    margin-bottom: 30px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #333;
+}
+
+.profile-section h3, .experience-section h3, .skills-section h3, .interests-section h3 {
+    color: rgb(32, 9, 235); 
+}
+
+.contact-info h3, .education h3, .language h3 {
+    color: rgb(12, 36, 248); 
+}
+
+.profile-section h3:contains("Website designer") {
+    color: red; 
+}
